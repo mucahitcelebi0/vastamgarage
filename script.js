@@ -56,7 +56,7 @@ function handleSubmit(e) {
     `\n📌 *Konu:* ${konu || '-'}` +
     `\n\n💬 *Mesaj:*\n${mesaj || '-'}`;
 
-  const url = `https://wa.me/905346507085?text=${encodeURIComponent(text)}`;
+  const url = `https://wa.me/905431772804?text=${encodeURIComponent(text)}`;
   window.open(url, '_blank', 'noopener');
 
   const btn = form.querySelector('button[type="submit"]');
